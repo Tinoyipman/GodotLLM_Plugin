@@ -70,7 +70,7 @@ func _ready() -> void:
 ### 2. Add a ChatController to your scene
 
 1. Create a scene with your chat UI (LineEdit, Button, Label).
-2. Add a node with the script `addons/llm_chatbot/ui/ChatController.gd`.
+2. Add a Control node with the script `addons/llm_chatbot/ui/ChatController.gd`.
 3. In the Inspector, assign:
    - **Input Field Path** → your `LineEdit`
    - **Send Button Path** → your `Button`
