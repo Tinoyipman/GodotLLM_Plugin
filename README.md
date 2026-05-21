@@ -38,7 +38,7 @@ addons/llm_chatbot/
 
 ## Installation
 
-1. Copy the `addons/llm_chatbot/` folder into your project's `addons/` directory.
+1. Copy the `addons/llm_chatbot/` folder into your project's `addons/` directory. (if the addons folder does not yet exist, manually add it inside of the res:// folder in your project)
 2. Open **Project → Project Settings → Plugins** and enable **LLM Chatbot**.  
    This automatically registers `LLMManager` as a global autoload.
 3. Copy `LLMSetup.example.gd` somewhere in your project (e.g. `res://autoloads/LLMSetup.gd`), add it as an **Autoload** (below `LLMManager` in the list), and fill in your API keys.
