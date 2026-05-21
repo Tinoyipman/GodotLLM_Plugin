@@ -335,7 +335,7 @@ func _start_typewriter(full_text: String) -> void:
 		_typing_tween.kill()
 
 	_typing_tween = create_tween()
-	var duration := full_text.length() / max(typing_speed, 1.0)
+	var duration : float = full_text.length() / max(typing_speed, 1.0)
 	_typing_tween.tween_property(
 		_response_label, "visible_characters", full_text.length(), duration
 	)
