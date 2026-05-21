@@ -235,20 +235,6 @@ LLMManager.add_provider(my)
 
 ---
 
-## Migrating from the Original Scripts
-
-| Old | New |
-|---|---|
-| `GeminiManager` autoload | `LLMManager` autoload |
-| `GeminiManager.query(prompt)` | `LLMManager.query(prompt)` |
-| `GeminiManager.response_received` signal | `LLMManager.response_received` signal |
-| `portkey_key` / `google_key` in source | Set on provider instances in `LLMSetup.gd` |
-| Hardcoded `"Erwin Stevens"` persona | `system_prompt` export on `ChatController` |
-| Hardcoded `$ChatCanvas/LineEdit` paths | `input_field_path` export on `ChatController` |
-| `AiLogger.log_ai_conversation()` | Connect `conversation_saved` signal |
-
----
-
 ## Security Notes
 
 - Keep API keys out of version control. Use a `.gitignore`d config file or Godot's `user://` path to load them at runtime.
