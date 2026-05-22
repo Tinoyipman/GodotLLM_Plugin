@@ -1,6 +1,6 @@
 # LLM Chatbot Plugin for Godot 4
 
-A modular, provider-agnostic plugin for adding LLM-powered chatbots to any Godot 4 project. Drop in a chat UI, connect your API key, describe your character — done.
+A modular, provider-agnostic plugin for adding LLM-powered chatbots to any Godot 4 project. Drop in a chat UI, connect your API key, describe your character... done!
 
 ---
 
