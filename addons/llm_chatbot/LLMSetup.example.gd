@@ -11,7 +11,7 @@ extends Node
 func _ready() -> void:
 	# ── Provider 1: Portkey (primary) ──────────────────────────────────────
 	# Portkey acts as a gateway/router and supports many model providers.
-	# Get your key at https://app.portkey.ai
+	# Get your key through Fontys ICT
 	var portkey := PortkeyProvider.new()
 	portkey.api_key = "YOUR_PORTKEY_API_KEY"      # ← replace
 	portkey.model   = "@openrouter/google/gemini-2.0-flash-lite"  # ← replace
